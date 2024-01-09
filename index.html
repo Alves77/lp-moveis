@@ -15,30 +15,10 @@
 
 <body class="bg-white text-light-brown">
 
-    <!-- Navbar -->
-    <nav id="topo" class="bg-brown-dark p-7 text-lg fixed-nav">
-        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
-            <a href="#Home" class="text-light-brown text-lg font-semibold mb-4 md:mb-0">Logo</a>
-
-            <!-- Adicione a classe 'md:hidden' para esconder em dispositivos médios e grandes -->
-            <button id="menu-toggle" class="md:hidden text-light-brown absolute right-0" onclick="toggleMenu()">
-                <svg class="w-8 h-8 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="square" stroke-linejoin="round" stroke-width="4" d="M4 6h16M4 12h16m-7 6h7">
-                    </path>
-                </svg>
-            </button>
-
-            <ul id="menu-list" class="hidden md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-24 pr-12">
-                <li><a href="#home" class="text-light-brown hover:text-gray-300 transition duration-500">Home</a></li>
-                <li><a href="#sobre" class="text-light-brown hover:text-gray-300">Sobre</a></li>
-                <li><a href="#portfolio" class="text-light-brown hover:text-gray-300">Portfólio</a></li>
-                <li><a href="#footer" class="text-light-brown hover:text-gray-300">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
-
-
+    <header class="bg-light-brown text-white flex items-center justify-center">
+        <img src="components/img/Logo.png" alt="Logo">
+    </header>
+    
 
     <!-- Hero Section with Background Image -->
     <section id="home" class="bg-cover bg-no-repeat bg-auto bg-black text-light-brown py-16 flex items-center"
