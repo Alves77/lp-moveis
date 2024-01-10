@@ -1,0 +1,116 @@
+body {
+    font-family: 'DM Serif Display', serif;
+}
+
+.text-light-brown {
+    color: #d5b690;
+}
+
+.bg-light-brown {
+    background-color: #d5b690;
+}
+
+.text-dark-brown {
+    color: #784a26;
+}
+
+.bg-dark-brown {
+    background-color: #784a26;
+}
+
+.mt-hero {
+    margin-top: 90px;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border-radius: 15px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.btn-brown {
+    color: #d5b690;
+    background-color: #784a26;
+    border-color: #784a26;
+}
+
+.btn-brown:hover,
+.btn-brown:focus,
+.btn-brown:active,
+.btn-brown.active,
+.open>.dropdown-toggle.btn-brown {
+    color: #000;
+    background-color: #d5b690;
+    border-color: #d5b690;
+}
+
+.linha {
+    width: 70px;
+    height: 5px;
+    background-color: #784a26;
+    margin: auto;
+    padding-bottom: auto;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #e1e1e1;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card-img-small-top {
+    width: 180px;
+    height: 10px;
+    margin-left: 100px;
+    object-position: center;
+}
+
+
+@media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+}
+
+
+
+@media (min-width: 750px) {
+    ul li a {
+        margin-left: 60px;
+    }
+}
